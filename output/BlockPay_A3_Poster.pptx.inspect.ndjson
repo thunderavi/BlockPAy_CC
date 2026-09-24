@@ -1,0 +1,111 @@
+{"kind":"deck","id":"pr/qxgs39","name":"Deck"}
+{"kind":"layout","layoutId":"f710efda-2979-437b-ad38-4f13ef23998c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3cb79a9a-d005-44b1-8ebf-37cad546262f","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/4eyr6e","slide":1,"title":"21CSC653T  /  FP1 POSTER","textShapes":70}
+{"kind":"textbox","id":"sh/5cnet03m","slide":1,"name":"text","text":"21CSC653T  /  FP1 POSTER","textPreview":"21CSC653T  /  FP1 POSTER","textChars":24,"textLines":1,"bbox":[62,34,330,30]}
+{"kind":"textbox","id":"sh/i9wvy54v","slide":1,"name":"text","text":"BLOCKPAY","textPreview":"BLOCKPAY","textChars":8,"textLines":1,"bbox":[62,68,1020,82]}
+{"kind":"textbox","id":"sh/3a5wrqlg","slide":1,"name":"text","text":"Cloud-enabled campus payments with blockchain-verifiable receipts","textPreview":"Cloud-enabled campus payments with blockchain-verifiable receipts","textChars":65,"textLines":1,"bbox":[62,145,1020,48]}
+{"kind":"shape","id":"sh/gnedwvm5","slide":1,"name":"box","bbox":[1182,43,340,130]}
+{"kind":"textbox","id":"sh/h8nep03q","slide":1,"name":"text","text":"CORE IDEA","textPreview":"CORE IDEA","textChars":9,"textLines":1,"bbox":[1210,60,284,33]}
+{"kind":"textbox","id":"sh/ulcvul4z","slide":1,"name":"text","text":"Fast off-chain payments.\nTamper-evident on-chain proof.","textPreview":"Fast off-chain payments. | Tamper-evident on-chain proof.","textChars":55,"textLines":2,"bbox":[1210,94,284,54]}
+{"kind":"shape","id":"sh/vm5wnqlk","slide":1,"bbox":[62,210,1460,2]}
+{"kind":"shape","id":"sh/03yx8f29","slide":1,"name":"box","bbox":[62,242,445,292]}
+{"kind":"textbox","id":"sh/147e1k3u","slide":1,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,264,42,34]}
+{"kind":"textbox","id":"sh/h4n29ona","slide":1,"name":"text","text":"PROBLEM STATEMENT","textPreview":"PROBLEM STATEMENT","textChars":17,"textLines":1,"bbox":[141,264,340,34]}
+{"kind":"textbox","id":"sh/g3el0j6p","slide":1,"name":"text","text":"Campus payments are convenient, but records can be disputed, altered, or trapped inside one central system.","textPreview":"Campus payments are convenient, but records can be disputed, altered, or trapped inside one central system.","textChars":107,"textLines":1,"bbox":[86,312,395,58]}
+{"kind":"shape","id":"sh/v25k7e54","slide":1,"bbox":[86,390,9,9]}
+{"kind":"textbox","id":"sh/u1wjy9oj","slide":1,"name":"text","text":"No independent proof of a completed transfer","textPreview":"No independent proof of a completed transfer","textChars":44,"textLines":1,"bbox":[106,382,375,42]}
+{"kind":"shape","id":"sh/t0n2547y","slide":1,"bbox":[86,432,9,9]}
+{"kind":"textbox","id":"sh/8zu1wj6d","slide":1,"name":"text","text":"Manual bill splitting and payment follow-ups","textPreview":"Manual bill splitting and payment follow-ups","textChars":44,"textLines":1,"bbox":[106,424,375,42]}
+{"kind":"shape","id":"sh/7elk3eps","slide":1,"bbox":[86,474,9,9]}
+{"kind":"textbox","id":"sh/6dcju9on","slide":1,"name":"text","text":"Centralized logs create a single point of trust","textPreview":"Centralized logs create a single point of trust","textChars":47,"textLines":1,"bbox":[106,466,375,42]}
+{"kind":"shape","id":"sh/dw72h8n2","slide":1,"name":"box","bbox":[62,554,445,260]}
+{"kind":"textbox","id":"sh/svyl836x","slide":1,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[86,576,42,34]}
+{"kind":"textbox","id":"sh/cf6547et","slide":1,"name":"text","text":"PROPOSED SOLUTION","textPreview":"PROPOSED SOLUTION","textChars":17,"textLines":1,"bbox":[141,576,340,34]}
+{"kind":"textbox","id":"sh/xgfmdcve","slide":1,"name":"text","text":"A student wallet that combines cloud speed with blockchain integrity.","textPreview":"A student wallet that combines cloud speed with blockchain integrity.","textChars":69,"textLines":1,"bbox":[86,624,395,48]}
+{"kind":"shape","id":"sh/qdon2hw3","slide":1,"bbox":[86,690,9,9]}
+{"kind":"textbox","id":"sh/bex4b2d8","slide":1,"name":"text","text":"Send, request, split, scan QR and notify","textPreview":"Send, request, split, scan QR and notify","textChars":40,"textLines":1,"bbox":[106,682,375,38]}
+{"kind":"shape","id":"sh/obm507ex","slide":1,"bbox":[86,728,9,9]}
+{"kind":"textbox","id":"sh/pcfm9cvi","slide":1,"name":"text","text":"Store full private records in MongoDB","textPreview":"Store full private records in MongoDB","textChars":37,"textLines":1,"bbox":[106,720,375,38]}
+{"kind":"shape","id":"sh/294nyxwr","slide":1,"bbox":[86,766,9,9]}
+{"kind":"textbox","id":"sh/3ad472dc","slide":1,"name":"text","text":"Anchor reference ID + SHA-256 hash on-chain","textPreview":"Anchor reference ID + SHA-256 hash on-chain","textChars":43,"textLines":1,"bbox":[106,758,375,38]}
+{"kind":"shape","id":"sh/g7mlwnel","slide":1,"name":"box","bbox":[62,834,445,225]}
+{"kind":"textbox","id":"sh/18vm5sv6","slide":1,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[86,856,42,34]}
+{"kind":"textbox","id":"sh/jitofih8","slide":1,"name":"text","text":"TECHNOLOGIES","textPreview":"TECHNOLOGIES","textChars":12,"textLines":1,"bbox":[141,856,340,34]}
+{"kind":"textbox","id":"sh/ihknmdgn","slide":1,"name":"text","text":"React + Vite","textPreview":"React + Vite","textChars":12,"textLines":1,"bbox":[86,905,186,22]}
+{"kind":"textbox","id":"sh/54b6hszy","slide":1,"name":"text","text":"Web UI","textPreview":"Web UI","textChars":6,"textLines":1,"bbox":[86,925,186,20]}
+{"kind":"textbox","id":"sh/4j25onyt","slide":1,"name":"text","text":"Node + Express","textPreview":"Node + Express","textChars":14,"textLines":1,"bbox":[284,905,186,22]}
+{"kind":"textbox","id":"sh/r6doj2h4","slide":1,"name":"text","text":"Cloud API","textPreview":"Cloud API","textChars":9,"textLines":1,"bbox":[284,925,186,20]}
+{"kind":"textbox","id":"sh/654nqxgj","slide":1,"name":"text","text":"MongoDB","textPreview":"MongoDB","textChars":7,"textLines":1,"bbox":[86,949,186,22]}
+{"kind":"textbox","id":"sh/t8v6lcfa","slide":1,"name":"text","text":"App data","textPreview":"App data","textChars":8,"textLines":1,"bbox":[86,969,186,20]}
+{"kind":"textbox","id":"sh/s7m5s7yp","slide":1,"name":"text","text":"Solidity","textPreview":"Solidity","textChars":8,"textLines":1,"bbox":[284,949,186,22]}
+{"kind":"textbox","id":"sh/fadon2xg","slide":1,"name":"text","text":"Proof registry","textPreview":"Proof registry","textChars":14,"textLines":1,"bbox":[284,969,186,20]}
+{"kind":"textbox","id":"sh/e94nuxgv","slide":1,"name":"text","text":"JWT + SHA-256","textPreview":"JWT + SHA-256","textChars":13,"textLines":1,"bbox":[86,993,186,22]}
+{"kind":"textbox","id":"sh/ypwz65s3","slide":1,"name":"text","text":"Security","textPreview":"Security","textChars":8,"textLines":1,"bbox":[86,1013,186,20]}
+{"kind":"textbox","id":"sh/zq5gfa9o","slide":1,"name":"text","text":"Docker","textPreview":"Docker","textChars":6,"textLines":1,"bbox":[284,993,186,22]}
+{"kind":"textbox","id":"sh/kreh8fa9","slide":1,"name":"text","text":"Deployment","textPreview":"Deployment","textChars":10,"textLines":1,"bbox":[284,1013,186,20]}
+{"kind":"shape","id":"sh/lsnyhkru","slide":1,"name":"box","bbox":[532,242,990,415]}
+{"kind":"textbox","id":"sh/mtgzapsf","slide":1,"name":"text","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[556,264,42,34]}
+{"kind":"textbox","id":"sh/7upgju90","slide":1,"name":"text","text":"CLOUD + BLOCKCHAIN ARCHITECTURE","textPreview":"CLOUD + BLOCKCHAIN ARCHITECTURE","textChars":31,"textLines":1,"bbox":[611,264,885,34]}
+{"kind":"textbox","id":"sh/8vyhcza5","slide":1,"name":"text","text":"Operational data stays off-chain; a compact proof is mirrored on-chain for later verification.","textPreview":"Operational data stays off-chain; a compact proof is mirrored on-chain for later verification.","textChars":94,"textLines":1,"bbox":[556,304,940,32]}
+{"kind":"shape","id":"sh/9w7ylkrq","slide":1,"bbox":[745,431,75,0]}
+{"kind":"shape","id":"sh/2xcfylsv","slide":1,"bbox":[1030,431,75,0]}
+{"kind":"shape","id":"sh/nylg7q9g","slide":1,"bbox":[1315,431,73,0]}
+{"kind":"shape","id":"sh/5cr2doby","slide":1,"bbox":[925,498,0,54]}
+{"kind":"shape","id":"sh/4ri14jud","slide":1,"bbox":[1210,498,0,54]}
+{"kind":"shape","id":"sh/jq9kbyt8","slide":1,"name":"node-Student App","bbox":[570,382,175,98]}
+{"kind":"textbox","id":"sh/ip0j2tcn","slide":1,"name":"text","text":"Student App","textPreview":"Student App","textChars":11,"textLines":1,"bbox":[582,390,151,30]}
+{"kind":"textbox","id":"sh/tgb2h8ba","slide":1,"name":"text","text":"React UI • QR • wallet","textPreview":"React UI • QR • wallet","textChars":22,"textLines":1,"bbox":[582,420,151,54]}
+{"kind":"shape","id":"sh/sf2183up","slide":1,"name":"node-Cloud API","bbox":[820,382,210,98]}
+{"kind":"textbox","id":"sh/retkfyt4","slide":1,"name":"text","text":"Cloud API","textPreview":"Cloud API","textChars":9,"textLines":1,"bbox":[832,390,186,30]}
+{"kind":"textbox","id":"sh/6dkj6tcj","slide":1,"name":"text","text":"Express • JWT • validation","textPreview":"Express • JWT • validation","textChars":26,"textLines":1,"bbox":[832,420,186,54]}
+{"kind":"shape","id":"sh/9k7i54bq","slide":1,"name":"node-Payment Engine","bbox":[1105,382,210,98]}
+{"kind":"textbox","id":"sh/8jy1wzu5","slide":1,"name":"text","text":"Payment Engine","textPreview":"Payment Engine","textChars":14,"textLines":1,"bbox":[1117,390,186,30]}
+{"kind":"textbox","id":"sh/0321cj21","slide":1,"name":"text","text":"Debit • credit • receipt","textPreview":"Debit • credit • receipt","textChars":24,"textLines":1,"bbox":[1117,420,186,54]}
+{"kind":"shape","id":"sh/l4b2l4jm","slide":1,"name":"node-Alerts","bbox":[1388,382,105,98]}
+{"kind":"textbox","id":"sh/y1kja9kb","slide":1,"name":"text","text":"Alerts","textPreview":"Alerts","textChars":6,"textLines":1,"bbox":[1400,390,81,30]}
+{"kind":"textbox","id":"sh/z2tkje1w","slide":1,"name":"text","text":"Real-time\nupdates","textPreview":"Real-time | updates","textChars":17,"textLines":2,"bbox":[1400,420,81,54]}
+{"kind":"shape","id":"sh/87m1gj2d","slide":1,"name":"node-MongoDB Cloud","bbox":[805,552,240,70]}
+{"kind":"textbox","id":"sh/9sv2pojy","slide":1,"name":"text","text":"MongoDB Cloud","textPreview":"MongoDB Cloud","textChars":13,"textLines":1,"bbox":[817,560,216,30]}
+{"kind":"textbox","id":"sh/m5kje9k7","slide":1,"name":"text","text":"Users • wallets • full transactions","textPreview":"Users • wallets • full transactions","textChars":35,"textLines":1,"bbox":[817,590,216,26]}
+{"kind":"shape","id":"sh/n6dkne1s","slide":1,"name":"node-Blockchain Network","bbox":[1090,552,240,70]}
+{"kind":"textbox","id":"sh/wvmlk329","slide":1,"name":"text","text":"Blockchain Network","textPreview":"Blockchain Network","textChars":18,"textLines":1,"bbox":[1102,560,216,30]}
+{"kind":"textbox","id":"sh/xwv2t8ju","slide":1,"name":"text","text":"paymentId + applicationHash","textPreview":"paymentId + applicationHash","textChars":27,"textLines":1,"bbox":[1102,590,216,26]}
+{"kind":"textbox","id":"sh/r2hwzmp8","slide":1,"name":"text","text":"verifyTransaction()\nreturns true / false","textPreview":"verifyTransaction() | returns true / false","textChars":40,"textLines":2,"bbox":[1346,538,146,74]}
+{"kind":"shape","id":"sh/618v6h8n","slide":1,"name":"box","bbox":[532,677,990,212]}
+{"kind":"textbox","id":"sh/t4je1w7e","slide":1,"name":"text","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[556,699,42,34]}
+{"kind":"textbox","id":"sh/s3ad8rqt","slide":1,"name":"text","text":"PAYMENT WORKFLOW","textPreview":"PAYMENT WORKFLOW","textChars":16,"textLines":1,"bbox":[611,699,885,34]}
+{"kind":"shape","id":"sh/jyhwvmpc","slide":1,"bbox":[684,802,23,0]}
+{"kind":"shape","id":"sh/ix8v2h8r","slide":1,"bbox":[556,758,46,46]}
+{"kind":"textbox","id":"sh/50zexc72","slide":1,"name":"text","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[556,758,46,46]}
+{"kind":"textbox","id":"sh/4zqd4rqx","slide":1,"name":"text","text":"Scan / select user","textPreview":"Scan / select user","textChars":18,"textLines":1,"bbox":[556,812,135,48]}
+{"kind":"shape","id":"sh/nulw76pg","slide":1,"bbox":[841,802,23,0]}
+{"kind":"shape","id":"sh/2tsve18v","slide":1,"bbox":[713,758,46,46]}
+{"kind":"textbox","id":"sh/etoba9or","slide":1,"name":"text","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[713,758,46,46]}
+{"kind":"textbox","id":"sh/zuxc3e5c","slide":1,"name":"text","text":"Validate PIN + balance","textPreview":"Validate PIN + balance","textChars":22,"textLines":1,"bbox":[713,812,135,48]}
+{"kind":"shape","id":"sh/0v6tcj6x","slide":1,"bbox":[998,802,23,0]}
+{"kind":"shape","id":"sh/1wzu54ni","slide":1,"bbox":[870,758,46,46]}
+{"kind":"textbox","id":"sh/q5ob6pov","slide":1,"name":"text","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[870,758,46,46]}
+{"kind":"textbox","id":"sh/r6xczup0","slide":1,"name":"text","text":"Update wallet records","textPreview":"Update wallet records","textChars":21,"textLines":1,"bbox":[870,812,135,48]}
+{"kind":"shape","id":"sh/cr6t8z6l","slide":1,"bbox":[1155,802,23,0]}
+{"kind":"shape","id":"sh/dsfu1476","slide":1,"bbox":[1027,758,46,46]}
+{"kind":"textbox","id":"sh/214b2poj","slide":1,"name":"text","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1027,758,46,46]}
+{"kind":"textbox","id":"sh/32dcvup4","slide":1,"name":"text","text":"Create SHA-256 proof","textPreview":"Create SHA-256 proof","textChars":20,"textLines":1,"bbox":[1027,812,135,48]}
+{"kind":"shape","id":"sh/5s36xcby","slide":1,"bbox":[1312,802,23,0]}
+{"kind":"shape","id":"sh/47u5o7ud","slide":1,"bbox":[1184,758,46,46]}
+{"kind":"textbox","id":"sh/j6lovmts","slide":1,"name":"text","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1184,758,46,46]}
+{"kind":"textbox","id":"sh/i5cnmhc7","slide":1,"name":"text","text":"Store + anchor hash","textPreview":"Store + anchor hash","textChars":19,"textLines":1,"bbox":[1184,812,135,48]}
+{"kind":"shape","id":"sh/h436tcvm","slide":1,"bbox":[1341,758,46,46]}
+{"kind":"textbox","id":"sh/w3u5k7uh","slide":1,"name":"text","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1341,758,46,46]}
+{"kind":"textbox","id":"sh/v2lor2dw","slide":1,"name":"text","text":"Issue receipt + alert","textPreview":"Issue receipt + alert","textChars":21,"textLines":1,"bbox":[1341,812,135,48]}
+{"kind":"shape","id":"sh/u1cnixcb","slide":1,"name":"box","bbox":[532,909,990,150]}
+{"kind":"textbox","id":"sh/90j6psvq","slide":1,"name":"text","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[556,931,42,34]}
+{"kind":"textbox","id":"sh/8za5gnu5","slide":1,"name":"text","text":"EXPECTED OUTCOMES & BENEFITS","textPreview":"EXPECTED OUTCOMES & BENEFITS","textChars":28,"textLines":1,"bbox":[611,931,885,34]}
+{"kind":"textbox","id":"sh/t4jq5cry","slide":1,"name":"text","text":"Faster campus payments","textPreview":"Faster campus payments","textChars":22,"textLines":1,"bbox":[556,984,172,48]}
+{"kind":"textbox","id":"sh/83apw7qd","slide":1,"name":"text","text":"Auditable digital receipts","textPreview":"Auditable digital receipts","textChars":26,"textLines":1,"bbox":[744,984,172,48]}
+{"kind":"textbox","id":"sh/72h8329s","slide":1,"name":"text","text":"Lower on-chain data cost","textPreview":"Lower on-chain data cost","textChars":24,"textLines":1,"bbox":[932,984,172,48]}
+{"kind":"textbox","id":"sh/6187ux87","slide":1,"name":"text","text":"Privacy-aware hybrid design","textPreview":"Privacy-aware hybrid design","textChars":27,"textLines":1,"bbox":[1120,984,172,48]}
+{"kind":"textbox","id":"sh/l0zq1sr2","slide":1,"name":"text","text":"Easy cloud scaling","textPreview":"Easy cloud scaling","textChars":18,"textLines":1,"bbox":[1308,984,172,48]}
+{"kind":"textbox","id":"sh/kzqps7qh","slide":1,"name":"text","text":"MVP status: hash-linked receipts are implemented in the API; Solidity testnet anchoring and managed cloud deployment are the next integration step.","textPreview":"MVP status: hash-linked receipts are implemented in the API; Solidity testnet anchoring and managed cloud deployment are the next integra...","textChars":147,"textLines":1,"bbox":[62,1080,980,22]}
+{"kind":"textbox","id":"sh/jyh8z29w","slide":1,"name":"text","text":"BLOCKPAY  •  SEND FAST. VERIFY FOREVER.","textPreview":"BLOCKPAY  •  SEND FAST. VERIFY FOREVER.","textChars":39,"textLines":1,"bbox":[1190,1080,332,22]}
+{"kind":"notes","id":"nt/4eyr6e","slide":1,"text":""}

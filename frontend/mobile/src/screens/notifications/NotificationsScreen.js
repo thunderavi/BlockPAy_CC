@@ -1,0 +1,8 @@
+import { useCallback, useEffect, useState } from "react";
+import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Button, Card, Chip, Empty, Header, Message, Screen, ui } from "../../components/UI";
+import { colors } from "../../constants/theme";
+import { api } from "../../services/api";
+import { dateTime } from "../../utils/format";
+export default function NotificationsScreen({navigation}){const[items,setItems]=useState([]);const[error,setError]=useState('');const load=useCallback(()=>api.notifications().then(d=>setItems(d.notifications)).catch(e=>setError(e.message)),[]);useEffect(()=>{const u=navigation.addListener('focus',load);return u},[navigation,load]);async function read(item){if(!item.read){await api.readNotification(item._id);await load()}}async function all(){await api.readAllNotifications();await load()}const unread=items.filter(x=>!x.read).length;return <Screen><Header eyebrow={`${unread} unread`} title="Notifications" right={<Button title="Read all" variant="ghost" onPress={all}/>}/><Message>{error}</Message>{items.length?items.map(item=><Pressable key={item._id} onPress={()=>read(item)}><Card style={!item.read&&styles.unread}><View style={ui.row}><Text style={styles.title}>{item.title}</Text><Chip>{item.type}</Chip></View><Text style={styles.message}>{item.message}</Text><Text style={styles.date}>{dateTime(item.createdAt)}</Text></Card></Pressable>):<Empty label="No notifications"/>}</Screen>}
+const styles=StyleSheet.create({unread:{borderColor:colors.teal,backgroundColor:'#0d2932'},title:{color:colors.text,fontWeight:'900',flex:1},message:{color:colors.muted,lineHeight:20},date:{color:colors.muted,fontSize:11}});

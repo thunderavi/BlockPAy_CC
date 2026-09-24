@@ -1,0 +1,30 @@
+{
+  "name": "blockpay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blockchain verified campus payment platform built with MongoDB, Express, React, and Node.js.",
+  "workspaces": [
+    "frontend/client",
+    "frontend/mobile",
+    "backend/server",
+    "backend/contracts"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace @blockpay/server\" \"npm run dev --workspace @blockpay/client\"",
+    "client": "npm run dev --workspace @blockpay/client",
+    "mobile": "npm --prefix frontend/mobile start",
+    "server": "npm run dev --workspace @blockpay/server",
+    "build": "npm run build --workspace @blockpay/client",
+    "start": "npm run start --workspace @blockpay/server",
+    "test": "npm run test:server && npm run test:mobile && npm run test:contracts",
+    "test:server": "npm test --workspace @blockpay/server",
+    "test:mobile": "npm --prefix frontend/mobile test",
+    "test:contracts": "npm --prefix backend/contracts test",
+    "blockchain:node": "npm --prefix backend/contracts run node",
+    "blockchain:deploy": "npm --prefix backend/contracts run deploy:local",
+    "test:coverage": "npm run test:coverage --workspace @blockpay/server && npm --prefix frontend/mobile run test:coverage && npm --prefix backend/contracts run test:coverage"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

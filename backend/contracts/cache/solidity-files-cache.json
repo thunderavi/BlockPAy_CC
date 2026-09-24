@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Atharve\\Downloads\\BlockPay-main (1)\\BlockPay-main\\backend\\contracts\\solidity\\BlockPay.sol": {
+      "lastModificationDate": 1788456640092,
+      "contentHash": "4c20978e0b212c03203aac0cf9417027",
+      "sourceName": "solidity/BlockPay.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "BlockPay"
+      ]
+    }
+  }
+}

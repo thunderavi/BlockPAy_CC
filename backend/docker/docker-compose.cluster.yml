@@ -1,0 +1,99 @@
+version: '3.8'
+
+services:
+  # Master (Primary) Mongo Node
+  mongo-primary:
+    image: mongo:7
+    container_name: blockpay-mongo-primary
+    restart: unless-stopped
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_primary_data:/data/db
+    networks:
+      - blockpay-cluster-net
+
+  # Slave (Secondary 1) Mongo Node
+  mongo-secondary-1:
+    image: mongo:7
+    container_name: blockpay-mongo-sec-1
+    restart: unless-stopped
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_sec1_data:/data/db
+    networks:
+      - blockpay-cluster-net
+
+  # Slave (Secondary 2) Mongo Node
+  mongo-secondary-2:
+    image: mongo:7
+    container_name: blockpay-mongo-sec-2
+    restart: unless-stopped
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27019:27017"
+    volumes:
+      - mongo_sec2_data:/data/db
+    networks:
+      - blockpay-cluster-net
+
+  # Replica Set Auto-Initiator
+  mongo-init-replica:
+    image: mongo:7
+    container_name: blockpay-mongo-init
+    depends_on:
+      - mongo-primary
+      - mongo-secondary-1
+      - mongo-secondary-2
+    networks:
+      - blockpay-cluster-net
+    restart: "no"
+    entrypoint: >
+      bash -c "
+        echo 'Waiting for Primary and Secondaries to start...';
+        sleep 5;
+        mongosh --host mongo-primary:27017 --eval '
+          try {
+            const status = rs.status();
+            if (status.ok === 1) {
+              console.log(\"Replica set rs0 is already initiated.\");
+            }
+          } catch(e) {
+            console.log(\"Initiating replica set rs0...\");
+            rs.initiate({
+              _id: \"rs0\",
+              members: [
+                { _id: 0, host: \"mongo-primary:27017\", priority: 2 },
+                { _id: 1, host: \"mongo-secondary-1:27017\", priority: 1 },
+                { _id: 2, host: \"mongo-secondary-2:27017\", priority: 1 }
+              ]
+            });
+            console.log(\"Replica set rs0 successfully initiated!\");
+          }
+        '
+      "
+
+  # Redis In-Memory High-Speed Cache
+  redis:
+    image: redis:7-alpine
+    container_name: blockpay-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - blockpay-cluster-net
+
+networks:
+  blockpay-cluster-net:
+    driver: bridge
+
+volumes:
+  mongo_primary_data:
+  mongo_sec1_data:
+  mongo_sec2_data:
+  redis_data:
