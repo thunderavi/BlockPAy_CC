@@ -1,6 +1,7 @@
 # BlockPay: Enterprise Hybrid Blockchain Architecture
 
-## 1. System Overview & Philosophy
+![BlockPay System Architecture](./assets/system_architecture.jpg)
+
 
 **BlockPay** is an enterprise-grade, high-throughput digital payments ecosystem designed around a **hybrid off-chain/on-chain settlement architecture**:
 
